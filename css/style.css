@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #dddddd;
+}
+
+.paper-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Pirata One", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #30475e;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75rem;
+  margin-bottom: 15px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box-1 {
+  flex-direction: row;
+}
+
+.article {
+  color: #222831;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #222831;
+}
+
+.article-title {
+  font-family: "Pirata One", cursive;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #30475e;
+}
+
+.article-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #f05454;
+}
+
+.article-photo {
+  /* resize image while keeping aspect ratio */
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+
+.article-content {
+  margin: 10px;
+}
+
+.small {
+  /* flex: 1 1 0; */
+  width: 25%;
+}
+
+.medium {
+  /* flex: 2 1 0; */
+  width: 50%;
+}
+
+.large {
+  /* flex: 3 1 0; */
+  width: 75%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px 5px 5px;
+}
+
+.menu-item {
+  color: #30475e;
+  font-family: "Pirata One", cursive;
+  margin: 5px 0;
+  padding: 5px;
+  border: solid 2px #30475e;
+  height: 100%;
+
+  /* to center text inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  background-color: #f05454;
+  color: #dddddd;
+}

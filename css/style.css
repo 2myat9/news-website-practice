@@ -101,6 +101,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: background-color 0.25s;
 }
 
 .menu-item:hover {
